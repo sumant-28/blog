@@ -1,0 +1,4 @@
+[submodule "Data/public"]
+	path = Data/public
+	url = https://github.com/sumant-28/sumant-28.github.io.git
+	branch = main
