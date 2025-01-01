@@ -23,7 +23,7 @@ In my testing the payload to JSON conversion can be tricky to examine and CloudW
 
 As has been noted before the data from HAE is not suitable in its raw form to be crawled. It therefore needs to be flattened to a file with one dictionary per line. One part of my Lambda function flattens the dictionaries extracted from the json data and the other part attaches the metadata back in for the crawler to pick out the fields used in querying. This is just one way to do this process flattening JSON files is a very common data preparation task
 
-```
+```python
 def get_meta_fields(data):
     init = []
     for i in range(0, len(data['data']['metrics'])):
