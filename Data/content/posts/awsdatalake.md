@@ -1,6 +1,7 @@
 +++
 date = '2024-12-20T00:27:50+13:00'
 title = 'Implementing an Apple Health data lake using AWS'
+tags = ["aws"]
 +++
 
 In the past I developed a solution to examine the Apple Health [data download](https://github.com/sumant-28/AppleHealthParser.jl) exported as an xml file. Upon reflection that only served as a stepping stone to implementing a personal data lake. A serverless application hosted in the cloud allows for much more powerful use of the data with real time insights to drive day to day decision making.

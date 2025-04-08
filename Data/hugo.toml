@@ -1,4 +1,4 @@
 baseURL = 'https://sumant-28.github.io/'
 languageCode = 'en-us'
-title = 'Data Things'
+title = 'Making the Ordinary Extraordinary With Data Together'
 theme="contrast-hugo"
