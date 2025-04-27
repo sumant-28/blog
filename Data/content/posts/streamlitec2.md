@@ -243,5 +243,3 @@ This costs money and if I am the only one who knows my static IP address I feel 
 
 I am considering this after my AWS free tier runs out. One thing I am mindful of is how powerful small self hosted server computers are and whether or not they can handle Docker.
 
-
-
