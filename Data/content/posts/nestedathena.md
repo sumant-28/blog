@@ -1,6 +1,6 @@
 +++
 date = '2025-04-20T11:25:33+12:00'
-title = 'Navigating Complex Structures Nesting With Athena'
+title = 'Navigating Complex Nesting Structures With Athena'
 tags = ['aws']
 +++
 
@@ -155,6 +155,9 @@ CREATE EXTERNAL TABLE tblname (
 ROW FORMAT serde 'org.openx.data.jsonserde.JsonSerDe'
 LOCATION 's3://...'
 ```
+
+{{< figure19 src="/images/evenmore.drawio.svg" alt="Alt text" title="Working?" >}}
+
 
 I did not know until now that it is best to define as permissive a data type as possible for these fields otherwise if a single value in a single field is not within these bounds an error occurs. This is somewhat an advantage to having "small" big data and not having to worry about advanced cost cutting strategies.
 
